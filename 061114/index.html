@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+
+  <title>Posterize</title>
+
+  <meta name="description" lang="en" content="Posterize is a movie poster finder using the Rotten Tomatoes API. Developed by John Zongmin Chow."/>
+  <meta name="author" content="John Zongmin Chow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="img/Designbolts-Flat-Social-Media-Delicious.ico">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Karla%7CMontserrat">
+  <link rel="stylesheet" href="css/screen.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="javascript.js"></script>
+  </head>
+   <body>
+   <header>
+    <div class="container">
+      <a href="index.html"><h1 class="logo">Posterize</h1></a>
+      <style>a:link {
+  text-decoration: none;
+}</style>
+      <div id="sharing" class="sharing-section">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="ZongminChow" data-size="large">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  <p class="lead">
+          Your movie poster finder.
+        </p>
+      <div class="credits">
+          <p><u>Developed by John Zongmin Chow</u></p>
+        </div>
+    </div>
+  </header>
+  <body>
+    <section id="examples" class="examples-section">
+      <h2>All movie posters, in one place.</h2>
+    <div id="movieForm">
+        </div>
+        </div>
+            <p class="lead">Enter a movie title or keywords:&nbsp;&nbsp;<input id="movieTitleID" type="text"><br></p>
+            <input value="Search" type="submit" class="button" onClick="runThatQuery();">
+        </div>
+      </div>
+    </body>
+</html>
